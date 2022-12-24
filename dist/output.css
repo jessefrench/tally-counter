@@ -2170,6 +2170,27 @@ html {
   }
 }
 
+.btn-lg {
+  height: 4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  min-height: 4rem;
+  font-size: 1.125rem;
+}
+
+.btn-square:where(.btn-lg) {
+  height: 4rem;
+  width: 4rem;
+  padding: 0px;
+}
+
+.btn-circle:where(.btn-lg) {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 9999px;
+  padding: 0px;
+}
+
 .select-xs {
   height: 1.5rem;
   padding-left: 0.5rem;
@@ -2261,11 +2282,6 @@ html {
   text-align: center;
 }
 
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
-}
-
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -2273,4 +2289,8 @@ html {
 
 .font-bold {
   font-weight: 700;
+}
+
+h1{
+  font-size: 14rem;
 }
